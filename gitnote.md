@@ -15,7 +15,7 @@ git commit -m "commentaire"
 
 # push
 git push -u origin feature/01-init
-
+git push -u origin feature/02-config
 # lister les branch du repo
 git branch
 # lister les branch remote et local
