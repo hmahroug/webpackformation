@@ -25,3 +25,18 @@ npm run webpack
 
 # exécuter le fichier js produit 
 node ./dist/main.js
+
+# générer un fichier html qui lie js
+npm install html-webpack-plugin --save-dev
+
+# installer webpack-dev-server
+npm install webpack-dev-server --save-dev
+
+# rajouter dans le fichier webpack.conf.js , dans la section script ce qui suit :
+"start":"webpack-dev-server --config webpack.config.js --env development --open",
+"build":"webpack --config webpack.config.js --env production"
+
+# rajouter un   dans la section script  du fichier webpack.conf.js
+ "debugthis":"node --inspect --inspect-brk ./src/index.js"
+
+# puis dans chrome , écrire chrome://inspect

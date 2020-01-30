@@ -21,3 +21,9 @@ git branch
 # lister les branch remote et local
 
 git branch -a
+
+# annuler les changement non commité
+
+# annuler les changements commités
+
+#
