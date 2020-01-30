@@ -1,0 +1,20 @@
+{
+  "name": "webpackformation",
+  "version": "1.0.0",
+  "description": "initiation à webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmahroug/webpackformation.git"
+  },
+  "keywords": ["webpack","js bundler"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmahroug/webpackformation/issues"
+  },
+  "homepage": "https://github.com/hmahroug/webpackformation#readme"
+}
