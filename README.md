@@ -40,3 +40,6 @@ npm install webpack-dev-server --save-dev
  "debugthis":"node --inspect --inspect-brk ./src/index.js"
 
 # puis dans chrome , écrire chrome://inspect
+
+# install nodemon : automatiser le rédemarrage du devServ chaque fois que les fichiers de conf sont maj
+ npm install nodemon --save-dev
