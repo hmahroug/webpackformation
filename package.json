@@ -10,11 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/hmahroug/webpackformation.git"
   },
-  "keywords": ["webpack","js bundler"],
+  "keywords": [
+    "webpack",
+    "js bundler"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hmahroug/webpackformation/issues"
   },
-  "homepage": "https://github.com/hmahroug/webpackformation#readme"
+  "homepage": "https://github.com/hmahroug/webpackformation#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5"
+  }
 }
