@@ -43,3 +43,11 @@ npm install webpack-dev-server --save-dev
 
 # install nodemon : automatiser le rédemarrage du devServ chaque fois que les fichiers de conf sont maj
  npm install nodemon --save-dev
+# rajouter dans 
+"start": "nodemon --watch webpack.config.js --exec webpack-dev-server --env development"
+
+# installer favicons-webpack-plugin
+npm install --save-dev favicons-webpack-plugin
+
+# installer clean-webpack-plugin
+npm i -D clean-webpack-plugin
